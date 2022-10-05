@@ -1,0 +1,866 @@
+<!DOCTYPE html>
+<html class="color-blue-dark" lang="ru">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Главная</title>
+    <!--font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&amp;display=swap">
+    <!--style-->
+    <link rel="stylesheet" href="css/main.css">
+    <!--scripts-->
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/slick.min.js"></script>
+    <script type="text/javascript" src="js/catsoft.js"></script>
+    <!-- favicon-->
+    <link rel="shortcut icon" href="img/favicon.png">
+  </head>
+  <body>
+    <div class="header-fixed">    
+      <div class="center flex-block">
+        <div class="show-mobile-menu"> <img src="img/menu.svg"></div>
+        <div class="hide-mobile-menu"><img src="img/close.svg"></div>
+        <div class="header__logo_image"><a href="#"><img src="img/logo.png" title="logo"></a></div>
+        <div class="header-menu__wrapper">
+          <div class="header__contacts flex-block">
+            <div class="heder-menu"><a href="#possibilities">Возможности</a><a href="#tarifs">Стоимость</a><a href="#shops">Магазины                    </a><a class="last-child" href="#partners">Поставщики</a></div>
+            <div class="show-mobile-phone"></div>
+            <div class="phones">
+              <div class="close-mobile-phone">&times;</div><a href="tel:+79997775533">+7 999 777 55 33</a>
+            </div>
+            <div class="socials"><a class="wa" href="#!">
+                <svg class="wa_line" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+                  <use x="0" y="0" xlink:href="#wa_line"></use>
+                </svg></a><a class="viber" href="#!">
+                <svg class="viber_line" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                  <use x="0" y="0" xlink:href="#viber_line"></use>
+                </svg></a><a class="tg" href="#!">
+                <svg class="telegram_line" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+                  <use x="0" y="0" xlink:href="#telegram_line"></use>
+                </svg></a></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="header-title">
+      <div class="center">
+        <h1>Платформа для&nbsp;открытия интернет-магазина<span>по&nbsp;продаже б/у&nbsp;автозапчастей</span></h1>
+        <div class="header-subtitle">Эксклюзивные соглашения с&nbsp;поставщиками из&nbsp;России и&nbsp;СНГ</div>
+      </div>
+    </div>
+    <div class="header-content">
+      <div class="center flex-block">
+        <div class="header-text">
+          <div class="title"><span>Открывайте бизнес</span> по&nbsp;продаже б/у&nbsp;запчастей  </div>
+          <p>Заработок от 200 000 рублей в месяц</p>
+          <ul>
+            <li>Готовый интернет-магазин. <br />100+ поставщиков с максимальными скидками.</li>
+            <li>Продажи через маркетплейсы и рекламные системы &mdash; ВСЕ включено! </li>
+            <li>Уже более <span>50 магазинов</span> по России с нами!   </li>
+          </ul>
+        </div>
+        <div class="header-form">
+          <div class="hf__wrapper">           
+            <div class="title">Получите <b>персональное предложение</b></div>
+            <div class="hf__content">
+              <div class="hf__item">Оставьте свой номер телефона и&nbsp;наш специалист свяжется с&nbsp;Вами в&nbsp;течение 45&nbsp;минут для&nbsp;консультации</div>
+              <form action="">
+                <div class="form-item">
+                  <input type="text" placeholder="+7 (______) ____ - ____ -______&quot;"/>
+                </div>
+                <button class="button">Получить предложение</button>
+              </form>
+              <div class="hf__item"><span>Бесплатно:</span> После консультации с&nbsp;Вами, мы&nbsp;готовим первичную аналитику и&nbsp;<b>расчет экономики для&nbsp;запуска проекта</b> с&nbsp;конкретными показателями</div>
+              <div class="hf__item"><span>Бесплатно:</span> Высылаем Вам коммерческое предложение и&nbsp;перезваниваем с&nbsp;детальным разъяснением</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="screen-complex">
+      <div class="center">
+        <h3 id="possibilities">Вы&nbsp;получаете комплексное&nbsp;решение</h3>
+        <div class="flex-block">
+          <div class="complex__item">
+            <div class="complex__img"> <img src="img/cpmplex_01.png" title="cpmplex_01.png"></div>
+            <div class="complex__text"><span>Готовый </span>интернет-магазин</div>
+          </div>
+          <div class="complex__item">
+            <div class="complex__img"> <img src="img/cpmplex_02.png" title="cpmplex_02.png"></div>
+            <div class="complex__text"><span>Прямые договоры </span>с поставщиками</div>
+          </div>
+          <div class="complex__item">
+            <div class="complex__img"> <img src="img/cpmplex_03.png" title="cpmplex_03.png"></div>
+            <div class="complex__text"><span>Более 8&nbsp;миллионов </span>позиций для заказа</div>
+          </div>
+          <div class="complex__item">
+            <div class="complex__img"> <img src="img/cpmplex_04.png" title="cpmplex_04.png"></div>
+            <div class="complex__text"><span>Мощный </span>функционал</div>
+          </div>
+          <div class="complex__item">
+            <div class="complex__img"> <img src="img/cpmplex_05.png" title="cpmplex_05.png"></div>
+            <div class="complex__text"><span>Бесплатный </span>тест-драйв</div>
+          </div>
+          <div class="complex__item">
+            <div class="complex__img"> <img src="img/cpmplex_06.png" title="cpmplex_06.png"></div>
+            <div class="complex__text"><span>Обучение </span>по работе  с платформой</div>
+          </div>
+          <div class="complex__item">
+            <div class="complex__img"> <img src="img/cpmplex_07.png" title="cpmplex_07.png"></div>
+            <div class="complex__text"><span>Техподдержка </span>по каталогу и сайту 24/7</div>
+          </div>
+          <div class="complex__item">
+            <div class="complex__img"> <img src="img/cpmplex_08.png" title="cpmplex_08.png"></div>
+            <div class="complex__text"><span>Настройка </span>контекстной рекламы</div>
+          </div>
+          <div class="complex__item">
+            <div class="complex__logo"> <img src="img/logo_01.png" title="logo_01.png"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="screen-video"> 
+      <div class="center"> 
+        <h3>Полное видео-описание всех функций платформы</h3>
+        <div class="video-wrapper"> 
+          <iframe width="960" height="480" src="https://www.youtube.com/embed/zWJPEWU_BQQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        <div class="button-text">Директор компании Catsoft рассказывает и&nbsp;показывает все&nbsp;функции и&nbsp;возможности личного кабинета платформы для&nbsp;создания интернет-магазинов б/у&nbsp;запчастей</div>
+      </div>
+    </div>
+    <div class="screen-table">
+      <div class="center"> 
+        <h3 id="tarifs">Стоимость использования платформы <img src="img/logo_red.png"></h3>
+        <div class="table-switcher platform-switcher"> <span class="active" id="platform-base">Базовый</span><span id="platform-stand">Стандартный</span><span id="platform-prem">Премиальный</span></div>
+        <table class="tarifs_platform">
+          <tr> 
+            <th class="tarif-point">Тарифы платформы Catsoft.ru</th>
+            <th class="tarif base">Базовый</th>
+            <th class="tarif stand">Стандартный</th>
+            <th class="tarif prem">Премиальный</th>
+          </tr>
+          <tr> 
+            <td class="tarif-point">Проверенные поставщики (авторазборы) </td>
+            <td class="check base"></td>
+            <td class="check stand"></td>
+            <td class="check prem"></td>
+          </tr>
+          <tr> 
+            <td class="tarif-point">Максимальные скидки от поставщиков(авторазборов) без привязки к обороту</td>
+            <td class="check base"></td>
+            <td class="check stand"></td>
+            <td class="check prem"></td>
+          </tr>
+          <tr> 
+            <td class="tarif-point">Online-проценка по всем поставщикам</td>
+            <td class="check base"></td>
+            <td class="check stand"></td>
+            <td class="check prem"></td>
+          </tr>
+          <tr> 
+            <td class="tarif-point">Гибкие настройки ценовой политики</td>
+            <td class="check base"></td>
+            <td class="check stand"></td>
+            <td class="check prem"></td>
+          </tr>
+          <tr> 
+            <td class="tarif-point">Логотип Вашего бренда на каждой фотографии</td>
+            <td class="check base"></td>
+            <td class="check stand"></td>
+            <td class="check prem"></td>
+          </tr>
+          <tr> 
+            <td class="tarif-point">Виджет для создания сайта</td>
+            <td class="check base"></td>
+            <td class="check stand"></td>
+            <td class="check prem"></td>
+          </tr>
+          <tr> 
+            <td class="tarif-point">Фид-файл для Директ</td>
+            <td class="minus base"></td>
+            <td class="check stand"></td>
+            <td class="check prem"></td>
+          </tr>
+          <tr> 
+            <td class="tarif-point">Лендинг пейдж шаблон</td>
+            <td class="base">10 000 р.</td>
+            <td class="check stand"></td>
+            <td class="check prem"></td>
+          </tr>
+          <tr> 
+            <td class="tarif-point">CRM-система для ведения клиентов/заказов</td>
+            <td class="minus base"></td>
+            <td class="check stand"></td>
+            <td class="check prem"></td>
+          </tr>
+          <tr> 
+            <td class="tarif-point">Добавление менеджеров в систему</td>
+            <td class="minus base"></td>
+            <td class="check stand"></td>
+            <td class="check prem"></td>
+          </tr>
+          <tr> 
+            <td class="tarif-point">Интернет-эквайринг</td>
+            <td class="minus base"></td>
+            <td class="minus stand"></td>
+            <td class="check prem"></td>
+          </tr>
+          <tr> 
+            <td class="tarif-point">Добавление "своих" запчастей в каталог</td>
+            <td class="minus base"></td>
+            <td class="minus stand"></td>
+            <td class="check prem"></td>
+          </tr>
+          <tr> 
+            <td class="tarif-point">Продажа "своих" запчастей по всей системе Catsoft</td>
+            <td class="minus base"></td>
+            <td class="minus stand"></td>
+            <td class="check prem"></td>
+          </tr>
+          <tr> 
+            <td class="tarif-point">Генерация прайс-листов для рекламных площадок (Drom, ZZap, Avito и пр.)</td>
+            <td class="minus base"></td>
+            <td class="minus stand"></td>
+            <td class="check prem"></td>
+          </tr>
+          <tr> 
+            <td class="tarif-point">Автоматический расчет стоимости доставки</td>
+            <td class="minus base"></td>
+            <td class="minus stand"></td>
+            <td class="check prem"></td>
+          </tr>
+          <tr> 
+            <td class="tarif-point">Стоимость подключения платформы</td>
+            <td class="base">99 000 р.</td>
+            <td class="stand">179 000 р.</td>
+            <td class="prem">249 000 р.</td>
+          </tr>
+          <tr class="discount">
+            <td class="tarif-point">Рассрочка 50% на 2 месяца</td>
+            <td class="minus base"></td>
+            <td class="minus stand"></td>
+            <td class="check prem"></td>
+          </tr>
+          <tr> 
+            <td class="tarif-point">Каждый следующий магазин скидка 20%</td>
+            <td class="minus base"></td>
+            <td class="check stand"></td>
+            <td class="check prem"></td>
+          </tr>
+          <tr> 
+            <td class="tarif-point">Абонентская плата со 2 месяца</td>
+            <td class="base">10 000 р.</td>
+            <td class="stand">15 000 р.</td>
+            <td class="prem">15 000 р.</td>
+          </tr>
+        </table>
+        <div class="title-develop">Можем также произвести настройку и&nbsp;сопровождение рекламной кампании&nbsp;<span>*</span></div>
+        <div class="table-switcher develop-switcher"><span class="active" id="develop-base">Базовый</span><span id="develop-stand">Стандартный</span><span id="develop-prem">Премиальный</span></div>
+        <table class="tarifs_develop"> 
+          <tr> 
+            <th class="tarif-point">Контекстная реклама</th>
+            <th class="tarif base">Базовый</th>
+            <th class="tarif stand">Стандартный</th>
+            <th class="tarif prem">Премиальный</th>
+          </tr>
+          <tr> 
+            <td class="tarif-point">Настройка и запуск Яндекс.Директ</td>
+            <td class="base">обсуждается</td>
+            <td class="stand">42 000 р.</td>
+            <td class="prem">42 000 р.</td>
+          </tr>
+          <tr> 
+            <td class="tarif-point">Срок поддержки после запуска</td>
+            <td class="base">обсуждается</td>
+            <td class="stand">3 месяца</td>
+            <td class="prem">3 месяца</td>
+          </tr>
+          <tr> 
+            <td class="tarif-point">Рекламный бюджет на 1 месяц минимум</td>
+            <td class="minus base"></td>
+            <td class="stand">15 000 р.</td>
+            <td class="prem">15 000 р.</td>
+          </tr>
+          <tr> 
+            <td class="tarif-point">Товарные кампании Директ</td>
+            <td class="minus base"></td>
+            <td class="check stand"></td>
+            <td class="check prem"></td>
+          </tr>
+          <tr> 
+            <td class="tarif-point">Смарт баннеры в Директ</td>
+            <td class="minus base"></td>
+            <td class="check stand"></td>
+            <td class="check prem"></td>
+          </tr>
+          <tr> 
+            <td class="tarif-point">Настройка и ведение рекламы (рекомендуемые затраты)</td>
+            <td class="base"></td>
+            <td class="stand">57 000 р.</td>
+            <td class="prem">57 000 р.</td>
+          </tr>
+          <tr> 
+            <td class="tarif-point">Рекламная поддержка с 4 месяца</td>
+            <td class="base"></td>
+            <td class="stand">15 000 р.</td>
+            <td class="prem">15 000 р.</td>
+          </tr>
+        </table>
+        <div class="reklama-link"><span>*</span> При поддержке маркетингового агентства <a href="https://реклама-запчастей.рф/" target="_blank"><img src="img/logo_link_rz.png"></a></div>
+      </div>
+    </div>
+    <div class="form-dark">
+      <div class="center"> 
+        <div class="title">Предварительно интересует</div>
+        <form>
+          <div class="form-content">
+            <div class="form-item">
+              <input type="text" placeholder="Ваше имя"/>
+            </div>
+            <div class="form-item">
+              <input type="text" placeholder="Ваш номер телефона"/>
+            </div>
+            <div class="dark-form-item">
+              <label>Пакет платформы</label>
+              <div> 
+                <label> 
+                  <input type="radio" name="tarif"><span>Базовый </span>
+                </label>
+                <label> 
+                  <input type="radio" name="tarif" checked><span>Стандартный </span>
+                </label>
+                <label> 
+                  <input type="radio" name="tarif"><span>Премиальный </span>
+                </label>
+              </div>
+            </div>
+            <div class="dark-form-item"> 
+              <label>Нужна реклама</label>
+              <div> 
+                <label> 
+                  <input type="radio" name="seo" checked><span>Да </span>
+                </label>
+                <label> 
+                  <input type="radio" name="seo"><span>Нет </span>
+                </label>
+              </div>
+            </div>
+          </div>
+          <div class="button-container"> 
+            <button class="button">Оставить заявку</button>
+          </div>
+        </form>
+      </div>
+    </div>
+    <div class="screen-customs"> 
+      <div class="center"> 
+        <h3>Для кого мы разработали уникальный комплекс</h3>
+        <div class="title-info">Наша аудитория условно разделена на&nbsp;3&nbsp;типа с&nbsp;рекомендациями по&nbsp;предлагаемым пакетам</div>
+        <div class="customs-wrapper"> 
+          <div class="custom-item-wrapper">
+            <input type="radio" name="custom" id="custom_01" checked>
+            <label class="label-custom_01" for="custom_01"> <span>Малый бизнес</span></label>
+            <input type="radio" name="custom" id="custom_02">
+            <label class="label-custom_02" for="custom_02"> <span>Средний бизнес</span></label>
+            <input type="radio" name="custom" id="custom_03">
+            <label class="label-custom_03" for="custom_03"> <span>Франшизы и сети</span></label>
+            <div class="custom-item" id="custom-item_01">
+              <div class="title"> <b>01</b>
+                <div><span>Малый бизнес</span></div>
+                <p>Предприниматели на&nbsp;стадии СТАРТАП, небольшие магазины по&nbsp;продаже запчастей либо просто стол заказов, небольшие&nbsp;СТО гаражного типа.</p>
+              </div>
+              <div class="content"> 
+                <table>
+                  <tr>
+                    <th>Формат работы </th>
+                    <td>Продажи на заказ от поставщиков. <br />В продажах заняты 1-2 работника или сам владелец бизнеса</td>
+                  </tr>
+                  <tr>
+                    <th>Присутствие в интернет</th>
+                    <td>Нет, либо это страница в соцсети, возможен простейший лендинг пейдж</td>
+                  </tr>
+                  <tr>
+                    <th>Наше предложение </th>
+                    <td> 
+                      <div class="custom-list"><span>Пакет “Базовый” </span>
+                        <p>доступ до 100+ поставщиков с гарантированной максимальной скидкой по программе Catsoft.ru</p>
+                        <p>возможности онлайн проценки по базе 8,5+ млн запчастей в наличии</p>
+                        <p>виджет для создания на собственном сайте полноценного каталога подбора запчастей для клиентов с встроенной системой заказов</p>
+                        <p>индивидуализация фото всех запчастей в базе логотипом компании партнера</p>
+                        <p>административная часть платформы с полноценным функционалом интернет-магазина для управления заказами и настройкой сайта</p>
+                        <p>возможность для настройки рекламной кампании в Яндекс.Директ</p>
+                      </div>
+                      <div class="button-link-wrapper"><a class="button-link show-form">Оставить заявку</a></div>
+                    </td>
+                  </tr>
+                </table>
+              </div>
+            </div>
+            <div class="custom-item" id="custom-item_02">
+              <div class="title"> <b>02</b>
+                <div><span>Средний бизнес</span></div>
+                <p>Состоявшиеся магазины и&nbsp;автосервисы с&nbsp;опытом работы от&nbsp;5&nbsp;лет и&nbsp;больше, с&nbsp;собственным складским наличием, развитым отделом продаж, ищущие новые направления развития бизнеса.</p>
+              </div>
+              <div class="content"> 
+                <table>
+                  <tr>
+                    <th>Формат работы </th>
+                    <td>Продажи со своего склада, а также работа с поставщиками под заказ. <br />Собственный отдел продаж</td>
+                  </tr>
+                  <tr>
+                    <th>Присутствие в интернет</th>
+                    <td>Своя CMS, лендинг, либо SAAS платформа</td>
+                  </tr>
+                  <tr>
+                    <th>Наше предложение </th>
+                    <td> 
+                      <div class="custom-list"><span>Пакет “Стандартный” </span>
+                        <p>все возможности пакета “Базовый”</p>
+                        <p>добавление менеджеров по продажам с гибкими возможностями настройки прав управления заказами</p>
+                        <p>собственная встроенная CRM для контроля взаимодействия с клиентами магазина</p>
+                        <p>шаблонный landing page для быстрого запуска проекта</p>
+                        <p>возможность генерации фид-файла для создания товарных рекламных кампаний в Яндекс.Директ из собственных прайс-листов, а также прайс-листов подключенных поставщиков</p>
+                      </div>
+                      <div class="button-link-wrapper"><a class="button-link show-form">Оставить заявку</a></div>
+                    </td>
+                  </tr>
+                </table>
+              </div>
+            </div>
+            <div class="custom-item" id="custom-item_03">
+              <div class="title"> <b>03</b>
+                <div><span>Франшизы и сети</span></div>
+                <p>Авторазборки и&nbsp;СТО, развивающие сеть своих магазинов, франчайзи, а&nbsp;также предприниматели, которые хотели бы инвестировать в&nbsp;новый проект бизнеса с&nbsp;быстрым стартом и&nbsp;гарантированным заработком.</p>
+              </div>
+              <div class="content"> 
+                <table>
+                  <tr>
+                    <th>Формат работы </th>
+                    <td>Продажи своего складского наличия + работа с поставщиками под заказ</td>
+                  </tr>
+                  <tr>
+                    <th>Присутствие в интернет</th>
+                    <td>Своя CMS либо SAAS платформа</td>
+                  </tr>
+                  <tr>
+                    <th>Наше предложение </th>
+                    <td> 
+                      <div class="custom-list"><span>Пакет “Премиальный” </span>
+                        <p>все возможности пакета “Базовый”</p>
+                        <p>все возможности пакета “Стандартный”</p>
+                        <p>добавление собственных прайс-листов систему Catsoft.ru</p>
+                        <p>возможность реализации своих остатков внутри системы catsoft.ru</p>
+                        <p>генерация фид-файлов для маркетплейсов Drom, ZZap, Avito и пр.</p>
+                        <p>интернет-эквайринг с банками</p>
+                        <p>автоматический расчет доставки до клиентов</p>
+                      </div>
+                      <div class="button-link-wrapper"><a class="button-link show-form">Оставить заявку</a></div>
+                    </td>
+                  </tr>
+                </table>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="screen-steps"> 
+      <div class="center">
+        <h3>Этапы старта Вашего бизнеса <span>с<img src="img/logo_yellow.png"></span></h3>
+        <div class="steps__list"> 
+          <div class="steps__item"> <span>01</span>
+            <div>Подключение к сервису Catsoft</div>
+            <div>Создание интернет-магазина</div>
+            <div>Обучение бизнесу и&nbsp;нюансам по&nbsp;продаже б/у&nbsp;запчастей</div>
+          </div>
+          <div class="steps__item"> <span>02</span>
+            <div>Выбор поставщиков запчастей и&nbsp;формирование наценки</div>
+            <div>Настройка каталога и&nbsp;прайс-листов для&nbsp;выгрузки и&nbsp;продажи</div>
+          </div>
+          <div class="steps__item"> <span>03</span>
+            <div>Выгрузка запчастей на&nbsp;агрегаторы</div>
+            <div>Запуск рекламы на&nbsp;агрегаторах</div>
+          </div>
+          <div class="steps__item"> <span>04</span>
+            <div>Обработка и&nbsp;прием заказов клиентов</div>
+            <div>Продажа запчастей и&nbsp;получение прибыли</div>
+          </div>
+        </div>
+        <div class="button-link-wrapper"> <a class="button-link show-form">Обсудить возможности для старта нового бизнеса</a></div>
+      </div>
+    </div>
+    <div class="screen-help"> 
+      <div class="center">
+        <h3>Помощь на старте</h3>
+        <div class="text">Прежде всего мы&nbsp;поможем Вам разобраться с&nbsp;работой платформы, а&nbsp;также научим как&nbsp;запустить проект и&nbsp;организовать продажи</div>
+        <div class="flex-block">
+          <div class="help-list">
+            <div class="help-item"> 
+              <input type="radio" name="help" id="help-1">
+              <label for="help-1">Проведем обучающий курс</label>
+              <div class="help-content"> 
+                <p>Научим Вас настраивать платформу под&nbsp;собственный магазин, а&nbsp;также работе с&nbsp;поставщиками, управлению заказами клиентов и&nbsp;многому другому. Обучение проводится с&nbsp;помощью конференции Zoom.</p>
+              </div>
+            </div>
+            <div class="help-item"> 
+              <input type="radio" name="help" id="help-2">
+              <label for="help-2">Поможем в&nbsp;создании сайта</label>
+              <div class="help-content"> 
+                <p>Мы можем предложить Вам шаблонный landing page собственной разработки, который показал свою эффективность в&nbsp;работе наших партнеров.</p>
+              </div>
+            </div>
+            <div class="help-item"> 
+              <input type="radio" name="help" id="help-3">
+              <label for="help-3">Организуем поток целевых клиентов</label>
+              <div class="help-content"> 
+                <p>Учитывая наш многолетний опыт, можем настроить эффективную рекламную кампанию, которая позволит получать от&nbsp;10&nbsp;до&nbsp;20&nbsp;заявок в&nbsp;день в&nbsp;зависимости от&nbsp;региона.</p>
+              </div>
+            </div>
+            <div class="help-item"> 
+              <input type="radio" name="help" id="help-4">
+              <label for="help-4">Обеспечим постоянную поддержку</label>
+              <div class="help-content"> 
+                <p>Мы всегда на&nbsp;связи и&nbsp;готовы помочь Вам разобраться с&nbsp;вопросами, возникающими при&nbsp;работе в&nbsp;платформой, а&nbsp;также в&nbsp;специфике бизнеса в&nbsp;целом.</p>
+              </div>
+            </div>
+          </div>
+          <div class="help-img"></div>
+        </div>
+      </div>
+    </div>
+    <div class="screen-purpose"> 
+      <div class="center"> 
+        <h3>Наша цель - взаимовыгодное сотрудничество</h3>
+        <div class="purpose-info"> 
+          <p>
+            Приоритетность нашей работы -  успешный запуск Вашего проекта, 
+            его&nbsp;стабильное развитие и&nbsp;процветание. Ведь Ваш успех - это&nbsp;залог дальнейшего развития нашего проекта!<br /> 
+            По-другому просто не&nbsp;может быть!
+          </p>
+        </div>
+        <div class="purpose-table"> 
+          <div class="title">Посчитаем примерную прибыльность проекта б/у&nbsp;запчастей</div>
+          <table> 
+            <tr> 
+              <td>Количество получаемых в&nbsp;день заявок </td>
+              <td>10</td>
+            </tr>
+            <tr> 
+              <td>Количество продаж в&nbsp;день 50%&nbsp;от&nbsp;полученных заявок</td>
+              <td>5</td>
+            </tr>
+            <tr> 
+              <td>Средний чек одной продажи</td>
+              <td>10 000 р.</td>
+            </tr>
+            <tr> 
+              <td>Ежедневный оборот по&nbsp;продажам</td>
+              <td>50 000 р</td>
+            </tr>
+            <tr> 
+              <td>Ежемесячный оборот по&nbsp;продажам</td>
+              <td>1 500 000 р.</td>
+            </tr>
+            <tr class="result">
+              <td>Маржинальный доход из&nbsp;расчета наценки в&nbsp;20%</td>
+              <td>250 000 р.</td>
+            </tr>
+          </table>
+        </div>
+      </div>
+    </div>
+    <div class="screen-examples">
+      <div class="examples-title">
+        <div class="center"> 
+          <h3 id="shops">Примеры&nbsp;магазинов наших&nbsp;партнеров        </h3>
+        </div>
+      </div>
+      <div class="center slider-wrapper">
+        <div class="examples_slider">
+          <div class="examples_slider__item">
+            <div class="slider_item__title">Автозапчасти Санкт-Петербург 01</div>
+            <div class="examples_slider__item__flex">
+              <div class="slider_item__work">
+                <div class="slider_work work_done"><span>Проделанные работы:</span>
+                  <p>Мы откорректировали ту кампанию, что уже есть, так как звонки по ней все же были, и добавили новые, полноценные рекламные кампании - поиск, РСЯ, ретаргетинг, мастера кампаний. Настроили Гугл. В настоящее время работаем над увеличением заявок на оригинальные запчасти, так как магазин дает очень выгодное предложение по оригиналам</p>
+                </div>
+                <div class="slider_work work_before"><span>Было:</span>
+                  <p>Клиент обратился к нам с уже настроенными рекламными кампаниями (только Яндекс), но эффекта от них было мало. Кампании были похожи на чей-то неаккуратный перенос вообще других кампаний - внутри РК все было достаточно хорошо проработано, а вот в настройках кампаний отсутствовали даже банальные минус-фразы и ограничения бюджета.</p>
+                </div>
+                <div class="slider_work work_after"><span>Стало:</span>
+                  <ul> 
+                    <li>2-5 заявок в день</li>
+                    <li>Относительно низкая стоимость кликов</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="slider_item__shop">
+                <div class="slider_item__subtitle">Стабильный управляемый поток заявок +<span>увеличилось их качество</span></div>
+                <div class="slider_item__links"><a class="slider-item-site" href="#"><img src="img/shop.jpg"><span>Перейти на сайт</span></a></div>
+              </div>
+            </div>
+          </div>
+          <div class="examples_slider__item">
+            <div class="slider_item__title">Автозапчасти Санкт-Петербург 02</div>
+            <div class="examples_slider__item__flex">
+              <div class="slider_item__work">
+                <div class="slider_work work_done"><span>Проделанные работы:</span>
+                  <p>Настроены рекламные кампании в Яндекс.Директ на поиске, РСЯ, мастер кампаний, ретаргетинг, а также по аудиториям собранных сегментов.</p>
+                </div>
+                <div class="slider_work work_before"><span>Было:</span>
+                  <ul> 
+                    <li>в среднем 1 регистрация в 2 дня</li>
+                    <li>клиенты только с материнского сайта</li>
+                  </ul>
+                </div>
+                <div class="slider_work work_after"><span>Стало:</span>
+                  <ul> 
+                    <li>в среднем 1,5 заявки в день</li>
+                    <li>рост клиентской базы в 3 раза</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="slider_item__shop">
+                <div class="slider_item__subtitle">Стабильный управляемый поток заявок +<span>увеличилось их качество</span></div>
+                <div class="slider_item__links"><a class="slider-item-site" href="#"><img src="img/shop.jpg"><span>Перейти на сайт</span></a></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="screen-partners">
+      <div class="center">
+        <h3 id="partners">Приглашаем к&nbsp;сотрудничеству <span>авторазборки и&nbsp;поставщиков</span></h3>
+        <div class="partners-list">
+          <div class="title">Основные критерии сотрудничества:</div>
+          <ul> 
+            <li>Возможность выгрузки остатков по обновляемой  ссылке </li>
+            <li>Фото товаров без вотермарок </li>
+            <li>Персональный менеджер</li>
+            <li>Бесплатная доставка до ТК</li>
+            <li>Обязательная скидка для партнеров Catsoft.ru</li>
+          </ul>
+        </div>
+        <div class="partners-logos"> 
+          <div class="title">С нами сотрудничают более 100 компаний из России, Белоруссии, Казахстана <span>и других республик СНГ</span></div>
+          <div class="partners-logos__list"> <a> <img src="img/partner-logo_01.png"></a><a> <img src="img/partner-logo_01.png"></a><a> <img src="img/partner-logo_01.png"></a><a> <img src="img/partner-logo_01.png"></a></div>
+          <div class="button-link-wrapper"> <a class="button-link show-form">Оставить заявку</a></div>
+        </div>
+      </div>
+    </div>
+    <div class="footer-screen">
+      <div class="text-info"> 
+        <div class="center">Предлагаем стать официальным представителем проверенных авторазборов России и&nbsp;СНГ в&nbsp;своем&nbsp;городе</div>
+      </div>
+      <div class="footer-content"> 
+        <div class="center flex-block"> 
+          <div class="footer-contacts"> <img src="img/logo-footer.png">
+            <div class="footer-contacts-links"> <a class="inn">40443975140</a><a class="phone" href="tel:+79529005353">+7 952-900-53-53</a><a class="mail" href="mailto:info@catsoft.ru">info@catsoft.ru</a></div>
+            <div class="socials"><a class="wa" href="#!">
+                <svg class="wa_line" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+                  <use x="0" y="0" xlink:href="#wa_line"></use>
+                </svg></a><a class="viber" href="#!">
+                <svg class="viber_line" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                  <use x="0" y="0" xlink:href="#viber_line"></use>
+                </svg></a><a class="tg" href="#!">
+                <svg class="telegram_line" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+                  <use x="0" y="0" xlink:href="#telegram_line"></use>
+                </svg></a></div>
+          </div>
+          <div class="footer-form"> 
+            <form action="">                   
+              <div class="title">Нужна консультация?</div>
+              <div class="form-item">
+                <input type="text" placeholder="Ваше имя"/>
+              </div>
+              <div class="form-item">
+                <input type="text" placeholder="Ваш номер телефона"/>
+              </div>
+              <div class="form-item">
+                <textarea placeholder="Текст сообщения"></textarea>
+              </div>
+              <button class="button">Отправить сообщение</button>
+              <p>Нажимая кнопку, Вы&nbsp;соглашаетесь на&nbsp;обработку персональных данных.</p>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div> 
+      <p> <a class="show-thanks">попап "Спасибо"</a></p>
+      <p> <a class="show-anketa-dealer">попап анкета поставщики</a></p>
+      <p> <a class="show-anketa-customer">попап анкета покупатели</a></p>
+      <p> <a class="show-form">попап форма</a></p>
+    </div>
+    <div class="popup_wrapper" id="thanks">  
+      <div class="popup_overlay"> </div>
+      <div class="popup_container">
+        <div class="popup_close"></div>
+        <div class="popup_body thanks-popup"> 
+          <div class="popup_title"> 
+            <div> <span>СПАСИБО</span></div>
+          </div>
+          <div class="popup_content"> 
+            <div class="check-img"><img src="img/thanks.png"></div>
+            <p>Ваша заявка успешно отправлена. </p>
+            <p>Мы свяжемся с&nbsp;Вами в&nbsp;ближайшее&nbsp;время!</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="popup_wrapper" id="form">   
+      <div class="popup_overlay"> </div>
+      <div class="popup_container">
+        <div class="popup_close"></div>
+        <div class="popup_body form-popup"> 
+          <div class="popup_title"> 
+            <div> <span>Заявка </span>на использование платформы</div>
+          </div>
+          <div class="popup_content"> 
+            <form>
+              <div class="form-item">
+                <label>Ваше имя</label>
+                <input type="text">
+              </div>
+              <div class="form-item">
+                <label>Ваш номер телефона</label>
+                <input type="text">
+              </div>
+              <div class="form-item">
+                <label>Ваше комментарий</label>
+                <textarea></textarea>
+              </div>
+              <button class="button">Оставить заявку</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="popup_wrapper" id="anketa-d">  
+      <div class="popup_overlay"> </div>
+      <div class="popup_container">
+        <div class="popup_close"></div>
+        <div class="popup_body anketa-dealer-popup"> 
+          <div class="popup_title"> 
+            <div> <span>Анкета             </span></div>
+          </div>
+          <div class="popup_content"> 
+            <p>Заполните, пожалуйста, небольшую анкету, которая позволит&nbsp;нам сразу подготовить для&nbsp;Вас персональное предложение</p>
+            <form>                   
+              <div class="form-item"><span class="number">01</span>
+                <label>Название компании</label>
+                <input type="text">
+              </div>
+              <div class="form-item"><span class="number">02</span>
+                <label>Сайт</label>
+                <input type="text">
+              </div>
+              <div class="form-item"><span class="number">03</span>
+                <label>Укажите город/ населенный пункт</label>
+                <input type="text">
+              </div>
+              <div class="form-item"><span class="number">04</span>
+                <label>Количество оцифрованных запчастей</label>
+                <input type="text">
+              </div>
+              <div class="form-item"><span class="number">05</span>
+                <label>Контактное лицо (директор)</label>
+                <input type="text">
+              </div>
+              <div class="form-item"><span class="number">06</span>
+                <label>Телефон</label>
+                <input type="text">
+              </div>
+              <div class="form-item">
+                <label class="custom-checkbox">
+                  <input type="checkbox"><span>Я даю свое согласие на обработку персональных данных</span>
+                </label>
+              </div>
+              <button class="button">Отправить заявку</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="popup_wrapper" id="anketa-c">  
+      <div class="popup_overlay"> </div>
+      <div class="popup_container">
+        <div class="popup_close"></div>
+        <div class="popup_body anketa-customer-popup"> 
+          <div class="popup_title"> 
+            <div> <span>Анкета             </span></div>
+          </div>
+          <div class="popup_content"> 
+            <p>Заполните, пожалуйста, небольшую анкету, которая позволит&nbsp;нам сразу подготовить для&nbsp;Вас персональное предложение</p>
+            <form>                   
+              <div class="form-item"><span class="number">01</span>
+                <label>Укажите город/ населенный пункт</label>
+                <input type="text">
+              </div>
+              <div class="form-item"><span class="number">02</span>
+                <label>Есть ли опыт работы в бизнесе автозапчастей?</label>
+                <div class="radio-variants">
+                  <label class="custom-radiobutton">
+                    <input type="radio" name="business"><span>Да</span>
+                  </label>
+                  <label class="custom-radiobutton">
+                    <input type="radio" name="business"><span>Нет</span>
+                  </label>
+                </div>
+              </div>
+              <div class="form-item"><span class="number">03</span>
+                <label>Есть ли у вас собственный сайт?</label>
+                <input type="text" placeholder="site.ru">
+                <label class="custom-checkbox">
+                  <input type="checkbox"><span>Нет</span>
+                </label>
+              </div>
+              <div class="form-item"><span class="number">04</span>
+                <label>Каким бюджетом располагаете для старта проекта?</label>
+                <input type="text" placeholder="300000 руб">
+                <label class="custom-checkbox">
+                  <input type="checkbox"><span>Пока не знаю</span>
+                </label>
+              </div>
+              <div class="form-item"><span class="number">05</span>
+                <label>На какой ежемесячный оборот хотели бы выйти?</label>
+                <input type="text" placeholder="2000000 руб">
+                <label class="custom-checkbox">
+                  <input type="checkbox"><span>Пока не знаю</span>
+                </label>
+              </div>
+              <div class="form-item personal">
+                <label class="custom-checkbox">
+                  <input type="checkbox"><span>Я даю свое согласие на обработку персональных данных</span>
+                </label>
+              </div>
+              <button class="button">Отправить заявку</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="svg-images">
+      <svg class="telegram_line" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+        <g id="telegram_line">
+          <path d="M 26.070313 3.996094 C 25.734375 4.011719 25.417969 4.109375 25.136719 4.21875 L 25.132813 4.21875 C 24.847656 4.332031 23.492188 4.902344 21.433594 5.765625 C 19.375 6.632813 16.703125 7.757813 14.050781 8.875 C 8.753906 11.105469 3.546875 13.300781 3.546875 13.300781 L 3.609375 13.277344 C 3.609375 13.277344 3.25 13.394531 2.875 13.652344 C 2.683594 13.777344 2.472656 13.949219 2.289063 14.21875 C 2.105469 14.488281 1.957031 14.902344 2.011719 15.328125 C 2.101563 16.050781 2.570313 16.484375 2.90625 16.722656 C 3.246094 16.964844 3.570313 17.078125 3.570313 17.078125 L 3.578125 17.078125 L 8.460938 18.722656 C 8.679688 19.425781 9.949219 23.597656 10.253906 24.558594 C 10.433594 25.132813 10.609375 25.492188 10.828125 25.765625 C 10.933594 25.90625 11.058594 26.023438 11.207031 26.117188 C 11.265625 26.152344 11.328125 26.179688 11.390625 26.203125 C 11.410156 26.214844 11.429688 26.21875 11.453125 26.222656 L 11.402344 26.210938 C 11.417969 26.214844 11.429688 26.226563 11.441406 26.230469 C 11.480469 26.242188 11.507813 26.246094 11.558594 26.253906 C 12.332031 26.488281 12.953125 26.007813 12.953125 26.007813 L 12.988281 25.980469 L 15.871094 23.355469 L 20.703125 27.0625 L 20.8125 27.109375 C 21.820313 27.550781 22.839844 27.304688 23.378906 26.871094 C 23.921875 26.433594 24.132813 25.875 24.132813 25.875 L 24.167969 25.785156 L 27.902344 6.65625 C 28.007813 6.183594 28.035156 5.742188 27.917969 5.3125 C 27.800781 4.882813 27.5 4.480469 27.136719 4.265625 C 26.769531 4.046875 26.40625 3.980469 26.070313 3.996094 Z M 25.96875 6.046875 C 25.964844 6.109375 25.976563 6.101563 25.949219 6.222656 L 25.949219 6.234375 L 22.25 25.164063 C 22.234375 25.191406 22.207031 25.25 22.132813 25.308594 C 22.054688 25.371094 21.992188 25.410156 21.667969 25.28125 L 15.757813 20.75 L 12.1875 24.003906 L 12.9375 19.214844 C 12.9375 19.214844 22.195313 10.585938 22.59375 10.214844 C 22.992188 9.84375 22.859375 9.765625 22.859375 9.765625 C 22.886719 9.3125 22.257813 9.632813 22.257813 9.632813 L 10.082031 17.175781 L 10.078125 17.15625 L 4.242188 15.191406 L 4.242188 15.1875 C 4.238281 15.1875 4.230469 15.183594 4.226563 15.183594 C 4.230469 15.183594 4.257813 15.171875 4.257813 15.171875 L 4.289063 15.15625 L 4.320313 15.144531 C 4.320313 15.144531 9.53125 12.949219 14.828125 10.71875 C 17.480469 9.601563 20.152344 8.476563 22.207031 7.609375 C 24.261719 6.746094 25.78125 6.113281 25.867188 6.078125 C 25.949219 6.046875 25.910156 6.046875 25.96875 6.046875 Z"></path>
+        </g>
+      </svg>
+      <svg class="viber_line" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+        <g id="viber_line">
+          <path fill="none" stroke-linecap="round" stroke-width="10" d="M269 186a30 30 0 0 1 31 31m-38-58a64 64 0 0 1 64 67m-73-93a97 97 0 0 1 99 104"></path>
+          <path d="M288 274q10-13 24-4l36 27q8 10-7 28t-28 15q-53-12-102-60t-61-104q0-20 25-34 13-9 22 5l25 35q6 12-7 22c-39 15 51 112 73 70zM95 232c0 78 14 95 36 118 7 7 32 19 38 19v69c0 4 4 7 8 3l53-63 26 1c144 0 161-56 161-147S400 85 256 85 95 141 95 232zm-30 0c0-126 55-177 191-177s191 51 191 177-55 177-191 177c-10 0-18 0-32-2l-38 43c-7 8-28 11-28-13v-42c-6 0-20-6-39-18-19-13-54-44-54-145z"></path>
+        </g>
+      </svg>
+      <svg class="wa_line" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+        <g id="wa_line">
+          <path d="M10.8,507.9c6.9-20.7,13.4-40.1,19.9-59.5c6.5-19.2,12.3-38.7,19.7-57.6c3.8-9.6,2.6-16.8-2.2-25.8   c-26.2-48.6-34-100.7-24.9-154.9c7.7-45.9,27.2-86.5,58.7-121C133.9,32.4,198.7,5.2,275.3,8.4c56.1,2.3,105.7,22.8,148,59.9   c39.4,34.5,65.1,77.4,77,128.4c9.6,41.1,8.5,82-3.3,122.5c-15,51.3-43.7,93.6-86.4,125.8c-59.3,44.8-125.8,58.7-198.3,44.6   c-21.8-4.2-42.6-12-62.2-22.6c-3.2-1.7-5.9-2.1-9.4-0.9c-37.2,12-74.5,23.9-111.7,35.8C23.4,503.7,17.7,505.6,10.8,507.9z    M74.1,445.2c2-0.5,2.9-0.7,3.8-1c23.3-7.4,46.6-14.9,70-22.1c2.2-0.7,5.2-0.1,7.3,0.9c10.1,5,19.8,11,30.2,15.4   c42.8,18.1,86.9,21,131.5,8.6c53.2-14.9,94-46.6,121.9-94.5c23.9-41,32.1-85.3,24.7-131.9c-9.4-59.3-39.8-105.9-90.1-139   C329.8,53,281.8,43.3,230.6,51.4c-44.1,7-81.8,27.1-112.9,59.3c-26.7,27.6-44.6,60.2-52.4,97.7c-11.1,53.7-2.9,104.5,26.9,150.8   c6,9.3,5.8,16.4,2.2,25.9C87.1,404.6,81,424.5,74.1,445.2z"></path>
+          <path d="M389.3,321.8c-0.3,19.3-9.4,34-27.8,43.2c-18.1,9-36.5,11.3-55.4,3.9c-17-6.7-34.2-13.2-50.6-21.3   c-21.6-10.7-39.3-26.7-55.5-44.4c-17.9-19.6-33.1-41.4-45.6-64.7c-8.9-16.5-14.3-34-12.4-53.2c2-20.4,11.5-36.7,27.5-49   c3.2-2.4,8-3.5,12.1-3.9c5.3-0.4,10.6,0.4,15.9,0.8c4.4,0.4,6.8,3.5,8.3,7.1c3.9,9.6,7.4,19.2,11.1,28.9c2.5,6.5,4.4,13.3,7.4,19.6   c3.7,7.8,1.4,14.3-3.4,20.3c-4.1,5.1-8.4,10-13.1,14.4c-3.9,3.7-4.6,7.5-2,12c11.5,20.5,25.5,38.9,44,53.8   c12.2,9.8,25.7,17.1,39.7,23.9c4.1,2,8.1,1.7,11.3-2c6.9-7.9,13.9-15.7,20.7-23.7c4.4-5.1,6.6-6.1,12.5-3.1   c17.1,8.6,34,17.5,51,26.4C389,313,390,316.6,389.3,321.8z"></path>
+        </g>
+      </svg>
+    </div>
+  </body>
+</html>
